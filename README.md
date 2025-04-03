@@ -52,7 +52,7 @@ pnpm build
 
 ![如何开发](./如何开发.png '如何开发')
 
-```
+```text
 src/router/routes/modules/index.ts
 
 使用Vite 独有的 import.meta.glob() 动态导入指定目录下的模块 下面配置（'./modules/**/*.ts'）是目录下的所有路由
@@ -105,7 +105,7 @@ const dynamicRouteFiles = import.meta.glob('./modules/**/*.ts', {
 
 ## 偏好设置
 
-```
+```text
 偏好设置在src下的performances.ts中配置，可以在系统设置中复制想要配置，然后粘贴到performances.ts中进行默认配置覆盖
 ```
 
