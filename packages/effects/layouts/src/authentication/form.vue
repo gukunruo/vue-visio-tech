@@ -23,7 +23,6 @@ defineOptions({
     </RouterView>
 
     <!-- Footer Copyright -->
-
     <div
       class="text-muted-foreground absolute bottom-3 flex text-center text-xs"
     >

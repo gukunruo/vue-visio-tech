@@ -130,6 +130,8 @@ const { authPanelCenter, authPanelLeft, authPanelRight, isDark } =
           <Copyright
             v-if="preferences.copyright.enable"
             v-bind="preferences.copyright"
+            :company-name="appName"
+            :date="new Date().getFullYear().toString()"
           />
         </slot>
       </template>
